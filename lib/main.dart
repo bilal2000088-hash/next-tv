@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:tv_filme/app.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
+    DeviceOrientation.landscapeLeft,
+    DeviceOrientation.landscapeRight,
+  ]);
+  await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  runApp(const TvFilmeApp());
+}

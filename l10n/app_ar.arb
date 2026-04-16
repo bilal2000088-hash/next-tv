@@ -1,0 +1,34 @@
+{
+  "@@locale": "ar",
+  "appTitle": "تي في فيلم",
+  "liveChannelsTooltip": "القنوات المباشرة",
+  "popularMovies": "أفلام شائعة",
+  "featuredChannels": "قنوات مباشرة مميزة",
+  "browseLiveChannels": "تصفح القنوات المباشرة",
+  "heroTitle": "تلفزيون وأفلام بأسلوب عصري",
+  "heroSubtitle": "استكشف محتوى بث مجاني من مصادر مفتوحة مع تجربة مشاهدة سلسة.",
+  "moviesUnavailable": "الأفلام غير متاحة حالياً.",
+  "channelsUnavailable": "القنوات غير متاحة حالياً.",
+  "searchChannelsHint": "ابحث عن قناة، تصنيف، أو دولة",
+  "channelsLoadError": "تعذّر تحميل القنوات من الخادم.",
+  "liveChannelsTitle": "القنوات المباشرة",
+  "playNow": "تشغيل الآن",
+  "pause": "إيقاف مؤقت",
+  "play": "تشغيل",
+  "restart": "إعادة من البداية",
+  "playbackFailed": "فشل التشغيل: {error}",
+  "@playbackFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingMore": "جاري تحميل المزيد…",
+  "noMoreItems": "لا يوجد المزيد",
+  "movieGenreFallback": "فيلم",
+  "channelCategoryFallback": "عام",
+  "yearUnknown": "غير محدد",
+  "sourceArchive": "أرشيف الإنترنت (محتوى مجاني)",
+  "noSearchResults": "لا توجد نتيجة مطابقة للبحث."
+}
